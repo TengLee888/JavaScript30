@@ -95,7 +95,6 @@
 
     function setDate(){
       var now = new Date();  //ceate a date object
-      console.log(now);
       var sec = now.getSeconds();　//i put var here instead, becoz const means it should not change
       var secondsDegrees = (sec / 60 * 360 + 90);
       if(secondsDegrees === 90) {
