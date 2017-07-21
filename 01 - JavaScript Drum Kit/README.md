@@ -37,7 +37,8 @@ function removeTransition{
 
 ### querySelectorAll()
 
-```elementList = document.querySelectorAll(selectors);
+```
+elementList = document.querySelectorAll(selectors);
 ```
 
 - The returned NodeList will contain all the elements in the document that are matched by any of the specified selectors.
