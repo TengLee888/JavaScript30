@@ -1,13 +1,15 @@
 
 
 # 運行架構
+
 對window進行監聽，當有event‘keydown’發生，則執行playSound function
+
 ```
     function playSound: {
-      audio:為了接收下面的程式碼, e.keyCode就是代表按鍵的數字
+      const audio:為了接收下面的程式碼, e.keyCode就是代表按鍵的數字
       <audio data-key="65" src="sounds/clap.wav"></audio>
 
-      key：為了接收下面的程式碼
+      const key：為了接收下面的程式碼
       <div data-key="65" class="key">
         <kbd>A</kbd>
         <span class="sound">clap</span>
@@ -17,20 +19,27 @@
       key.classList.add("playing");//add playing for css transform
     }
 ```
-為了要把特效移除，所以對所有key進行監聽，當transitionend把.playing移除
 
+
+為了要把特效移除，所以對所有key進行監聽，當transitionend發生則把.playing移除
 
 ```
 const keys = document.querySelectorAll('.key');//先把每個key弄成物件
 function removeTransition{
   if (e.propertyName !== "transform") return;//if element didnt transform, return
   this.classList.remove("playing"); // if element transform is ended, remove .playing
-}```
+}
+```
+
 
 
 # 新東西
+
 ### querySelectorAll()
-```elementList = document.querySelectorAll(selectors);```
+
+```elementList = document.querySelectorAll(selectors);
+```
+
 - The returned NodeList will contain all the elements in the document that are matched by any of the specified selectors.
 - **記得回傳的是NodeList**
 
@@ -42,7 +51,6 @@ function removeTransition{
 
 ### classList.add()
 - add class
-
 
 ### addEventListener
 - Has different interface like keyboardEvent, mouseEvent, transitionEvent...
