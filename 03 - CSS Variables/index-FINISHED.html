@@ -71,18 +71,6 @@
     inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
 
 
-    var inputs = document.querySelectorAll(`.controls input`);
-
-    function handleUpdate() {
-        const suffix = this.dataset.sizing || ''; //dataset is an object will contain all the data attributte from that element
-                                                  //here is pit "px" in setProperty, || '' because color dont have px therefore "Undifiend" will appear
-        document.documentElement.style.setProperty(`--${this.name}` , this.value + suffix);
-    };
-
-
-    inputs.forEach(input => input.addEventListener('change' , handleUpdate));
-    inputs.forEach(input => input.addEventListener('mousemove' , handleUpdate));
-
 
   </script>
 
