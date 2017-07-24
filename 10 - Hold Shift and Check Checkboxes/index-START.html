@@ -99,23 +99,17 @@
   </div>
 
 <script>
-let lastChecked;
+const checkboxes = document.querySelectorAll('input');
 
-function chooseMany(e){
-  if( e.keyCode == 16) {
-  }
-}
+let lastChecked;
 
 function handleCheck(e){
   let inBetween = false;
   if(e.shiftKey && this.checked){
     checkboxes.forEach(checkbox => {
-      console.log(checkbox);
       if(checkbox === this || lastChecked === checkbox ){
-        console.log('start is end');
         inBetween = !inBetween;
       }
-
       if(inBetween){
         checkbox.checked = true;
       }
@@ -125,7 +119,6 @@ function handleCheck(e){
 }
 
 
-const checkboxes = document.querySelectorAll('input');
 checkboxes.forEach(checkbox => checkbox.addEventListener('click' , handleCheck));
 </script>
 </body>

@@ -24,12 +24,14 @@
   let lastX = 0;
   let lastY = 0;
   let hue = 0;
-  let changeWidth = true;
+  let increaseWidth = true;
 
   function draw(e){
-    if(!isDrawing) {
-      return [lastX , lastY] = [e.offsetX , e.offsetY];  //differentway from FINIDH.HTML which is better but I still keep it.
+    if(!isDrawing) { //當mouseout or mouseup停止畫畫
+      return [lastX , lastY] = [e.offsetX , e.offsetY];
     }
+
+    ;
     console.log(e);
     ctx.strokeStyle = `hsl(${hue} , 100% , 50%)`;
     ctx.beginPath();
@@ -46,9 +48,9 @@
 
 
     if(ctx.lineWidth >= 100 || ctx.lineWidth <=1){
-      changeWidth = !changeWidth;
+      increaseWidth = !increaseWidth;
     }
-    if(changeWidth){
+    if(increaseWidth){
       ctx.lineWidth++;
     }else {
       ctx.lineWidth--;

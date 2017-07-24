@@ -65,20 +65,20 @@ function playSound(e){
   if (!audio) return; //when press other button, return
   audio.currentTime = 0;
   audio.play();
-  key.classList.add("playing");
+  key.classList.add('playing');
 }
 
 
 // remove transform when transition end
 function removeTransition(e){
   console.log(e.propertyName);
-  if (e.propertyName !== "transform") return;
-  this.classList.remove("playing");
+  if (e.propertyName !== 'transform') return;
+  this.classList.remove('playing');
 };
 
 
 const keys = document.querySelectorAll('.key');
-keys.forEach (key => key.addEventListener("transitionend", removeTransition));
+keys.forEach (key => key.addEventListener('transitionend', removeTransition));
 window.addEventListener ('keydown' , playSound);
 
 </script>
