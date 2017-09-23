@@ -3,6 +3,7 @@
 
 
 <br>
+
 # Note
 ### 縮寫
 ```
@@ -13,4 +14,5 @@ const height = hero.offsetHeight;
 ```
 
 <br>
+
 # New Discover

@@ -1,6 +1,8 @@
 # Object
 
 
+<br>
+
 # Note
 ### 把鍵盤的key加入array
 ```
@@ -19,6 +21,8 @@ window.addEventListener('keyup' , (e) => {
 pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
 ```
 
+
+<br>
 
 # New Discover
 ### e.property

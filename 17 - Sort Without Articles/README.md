@@ -4,6 +4,7 @@
 
 
 <br>
+
 # Note
 ```
 const sortedbands = bands.sort((a, b) => strip(a) > strip(b) ? 1 : -1);
@@ -12,6 +13,7 @@ const sortedbands = bands.sort((a, b) => strip(a) > strip(b) ? 1 : -1);
 
 
 <br>
+
 # New Discover
 
 ### RegExp

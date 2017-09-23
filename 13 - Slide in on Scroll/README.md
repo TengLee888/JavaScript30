@@ -4,6 +4,8 @@
 
 
 
+<br>
+
 # note
 ### 任何時刻視窗高度
 - window.scrollY
@@ -26,6 +28,8 @@ if(isHalfShown && isNotScrolledPast){
   sliderImage.classList.remove('active');
 }
 ```
+
+<br>
 
 # New Discover
 ### scrollY

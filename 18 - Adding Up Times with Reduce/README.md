@@ -3,12 +3,14 @@
 
 
 <br>
+
 # Note
 ### 從noteList換成Array
 - [...(document.querySelectorAll('[data-time]')]
 - Array.from((document.querySelectorAll('[data-time]'))
 
 <br>
+
 # New Discover
 ### parseFloat();
 - The parseFloat() function parses a string and returns a floating point number.

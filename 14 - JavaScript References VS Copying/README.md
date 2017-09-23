@@ -3,6 +3,7 @@
 
 
 <br>
+
 # Note
 
 ### Array
@@ -51,6 +52,7 @@ const cap2 = Object.assign({} , objName
 
 
 <br>
+
 # New Discover
 
 ### var

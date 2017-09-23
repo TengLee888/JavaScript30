@@ -1,8 +1,9 @@
 # Objective
-
+- 語音辨識
 
 
 <br>
+
 # Note
 ```
 let p = document.createElement('p');
@@ -39,6 +40,7 @@ if(e.result[0].isFinal){
 - 當句子結束時isFinal = true，利用這個來新增一個段落
 - let的好處在這裡 可以新增一個句子。
 <br>
+
 # New Discover
 ### SpeechRecognition
 - The SpeechRecognition interface of the Web Speech API is the controller interface for the recognition service; this also handles the SpeechRecognitionEvent sent from the recognition service.

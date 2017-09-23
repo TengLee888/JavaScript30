@@ -3,6 +3,7 @@
 
 
 <br>
+
 # Note
 ## function addItems()
 ```
@@ -26,6 +27,7 @@ function addItem(e) {
 - this.reset();，重新整理去掉input的資料
 
 <br>
+
 ## function populateList()
 ```
 function populateList(plates = [] , platesList) {
