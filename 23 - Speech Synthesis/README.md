@@ -142,7 +142,7 @@ background-size:100px 50px;
 ### change (Event reference)
 - Event Type: DeviceStorageChangeEvent
 - This event is triggered each time a file is created, modified or deleted on a given storage area.
-- The change event is fired for **<input>, <select>, and <textarea>**  elements when a change to the element's value is committed by the user. Unlike the input event, the change event is not necessarily fired for each change to an element's value.
+- The change event is fired for **input, select, and textarea**  elements when a change to the element's value is committed by the user. Unlike the input event, the change event is not necessarily fired for each change to an element's value.
 
 
 ### Array.prototype.find()
