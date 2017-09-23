@@ -10,7 +10,7 @@
 - msg.text裡存入輸入的文字，裡面也有各種設定，如msg.voice, msg.rate, msg.pitch，用DOM.querySelector.addEventListener('change' , Function)**把關係建立起來就可以調整輸入的文字發聲了！！**
 - ```msg.text = document.querySelector('[name="text"]').value;``` textarea的value就存入msg.text
 
-<br>
+
 ### populateVoices()
 - 呈現聲音給使用者選擇
 ```
