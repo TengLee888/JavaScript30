@@ -48,7 +48,8 @@ return hole;
 
 
 ### button的startGame
-```<button onClick="startGame()">Start!</button>
+```
+<button onClick="startGame()">Start!</button>
 ```
 - onClick="startGame()" 這樣寫就直接執行了！
 
@@ -62,6 +63,7 @@ return hole;
 
 <br>
 # New Discover
+
 ### WindowOrWorkerGlobalScope.setTimeout()
 - 忘了有這個funciton還想用setInterval所以再寫一次
 
