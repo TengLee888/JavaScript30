@@ -11,6 +11,8 @@
 - ```msg.text = document.querySelector('[name="text"]').value;``` textarea的value就存入msg.text
 
 
+<br>
+
 ### populateVoices()
 - 呈現聲音給使用者選擇
 ```
@@ -46,6 +48,7 @@ voicesDropdown.addEventListener('change' , setVoice);
 
 
 <br>
+
 ### setOption()
 - 當使用者調整rate, pitch, textarea，把它呈現出來
 ```
@@ -58,6 +61,7 @@ function setOption(){
 
 options.forEach(option => option.addEventListener('change' , setOption));
 ```
+
 - 對物件options進行監聽，因為要監聽三個，所以用forEach
 - msg[this.name]，
   - 先看this代表什麼，代表```<input name="rate" type="range" min="0" max="3" value="1" step="0.1">```
@@ -67,6 +71,7 @@ options.forEach(option => option.addEventListener('change' , setOption));
 
 
 <br>
+
 ### toggle()
 - 當使用者按speak btn發聲，按stop停止
 ```
@@ -89,10 +94,12 @@ function toggle(startOver){
   ...
 }
 ```
--```() => toggle(false)``` 也可以寫成這樣 ```toggle.bind(null , false);```
+
+- ```() => toggle(false)``` 也可以寫成這樣 ```toggle.bind(null , false);```
 
 
 <br>
+
 ### background-image
 - 還蠻屌的
 ```
@@ -109,6 +116,7 @@ background-size:100px 50px;
 
 
 <br>
+
 # New Discover
 ### SpeechSynthesisUtterance()
 - The SpeechSynthesisUtterance interface of the Web Speech API represents a speech request. It contains the content the speech service should read and information about how to read it (e.g. language, pitch and volume.)
