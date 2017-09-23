@@ -3,6 +3,7 @@
 - bar百分比的寫法
 
 <br>
+
 # Note
 ```
 const y = e.pageY - this.offsetTop;
@@ -16,6 +17,7 @@ const playbackRate = percent * (max - min) + min;
 
 
 <br>
+
 # New Discover
 ### Math.round()
 - 四捨五入
