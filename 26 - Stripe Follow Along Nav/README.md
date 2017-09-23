@@ -4,6 +4,7 @@
 
 
 <br>
+
 # Note
 ### setTimeout()和this的地雷
 ```
@@ -33,6 +34,7 @@ setTimeout(() => this.classList.contains('trigger-enter') && this.classList.add(
 
 
 <br>
+
 # New Discover
 ### getBoundingClientRect()
 - 又忘了所以再寫一次
