@@ -62,6 +62,7 @@ return hole;
 - 我自己寫的時候只有score++ 這行而已，但教學還增加了兩次score = 0;，是更也保障的寫法。
 
 <br>
+
 # New Discover
 
 ### WindowOrWorkerGlobalScope.setTimeout()
