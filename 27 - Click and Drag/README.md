@@ -3,6 +3,7 @@
 
 
 <br>
+
 # Note
 ### isDown
 - 跟之前一樣，在global設一個變數代表狀態的改變
@@ -34,6 +35,7 @@ slider.scrollLeft = scrollLeft + walk; (mousemove)
 
 
 <br>
+
 # New Discover
 ## CSS
 ### cursor: grabbing
