@@ -4,6 +4,7 @@
 
 
 <br>
+
 # Note
 ### setInterval的缺點
 - 設計倒數計時很直覺的會想要用setInterval()，但這裡不用setInterval因為他其實只是保證一秒之內不執行所以有可能會大於一秒。
@@ -84,6 +85,7 @@ document.customForm.addEventListener('submit' , function(e){
 
 
 <br>
+
 # New Discover
 ### Date()
 - 因為忘了所以重寫一次
