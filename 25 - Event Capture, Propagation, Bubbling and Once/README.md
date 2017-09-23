@@ -3,6 +3,7 @@
 
 
 <br>
+
 # Note
 ### capture: ture
 - 還沒有加這個之前，印出來的是three two one
@@ -21,6 +22,7 @@
 - **用在button很實用!!!**
 
 <br>
+
 # New Discover
 ### capture: true
 - function is not get run on the bubble up, it is get run on the capture down
@@ -32,4 +34,3 @@
 
 
 ### once: true
--

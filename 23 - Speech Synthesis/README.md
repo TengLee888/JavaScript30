@@ -3,6 +3,7 @@
 
 
 <br>
+
 # Note
 ## msg
 - ```const msg = new SpeechSynthesisUtterance();``` 先新增一個物件，存入msg。
@@ -31,6 +32,7 @@ speechSynthesis.addEventListener('voiceschanged' , populateVoices);
 
 
 <br>
+
 ### setVoice()
 - 當使用者選了option的某個聲音，setVoice()就用該聲音發聲
 ```
